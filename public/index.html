@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>FrameCatch - Reverse Video Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand"><a href="/">FrameCatch</a></div>
+        <nav class="nav-menu visible">
+          <a class="nav-link" href="#">About</a>
+        </nav>
+        <div class="hamburger">
+          <span class="material-symbols-outlined">menu</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="hero-container">
+        <!-- Hero Section -->
+        <div class="hero-section">
+          <h1 class="hero-title">FrameCatch</h1>
+          <p class="hero-subtitle">Reverse video search built to make discovery effortless.</p>
+        </div>
+
+        <!-- Search Card -->
+        <!-- <div class="search-card"> -->
+          <!-- URL Input Group -->
+          <!-- <div class="form-group">
+            <label class="form-label">Search by URL</label>
+            <div class="input-row">
+              <input class="form-input" placeholder="Paste Video URL..." type="text">
+              <button class="search-button">
+                <span class="material-symbols-outlined icon">search</span>
+                Search
+              </button>
+            </div>
+          </div> -->
+
+          <!-- Divider -->
+          <!-- <div class="divider-section">
+            <div class="divider-line"></div>
+            <span class="divider-text">or</span>
+            <div class="divider-line"></div>
+          </div> -->
+
+          <!-- Upload / Drop Zone -->
+          <div class="form-group">
+            <label class="form-label">Upload File</label>
+            <div class="drop-zone" id="drop-zone">
+              <div class="drop-zone-icon">
+                <span class="material-symbols-outlined icon">upload_file</span>
+              </div>
+              <p class="drop-zone-text">
+                Drag &amp; drop a video file here, or <span class="highlight" id="browse">browse</span>
+              </p>
+              <p class="drop-zone-hint">MP4, WebM, or MOV up to 50MB</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- How It Works Section -->
+        <div class="how-it-works">
+          <h2 class="how-it-works-title">How it works</h2>
+          <div class="steps-grid">
+            <!-- Step 1 -->
+            <div class="step-card">
+              <div class="step-icon">
+                <span class="material-symbols-outlined icon">input</span>
+              </div>
+              <h3 class="step-title">1. Input</h3>
+              <p class="step-description">Upload a video file or paste a direct URL to begin.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step-card">
+              <div class="step-icon">
+                <span class="material-symbols-outlined icon">analytics</span>
+              </div>
+              <h3 class="step-title">2. Analyze</h3>
+              <p class="step-description">Our engine extracts keyframes and searches them against the web</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step-card">
+              <div class="step-icon">
+                <span class="material-symbols-outlined icon">travel_explore</span>
+              </div>
+              <h3 class="step-title">3. Find Source</h3>
+              <p class="step-description">Discover the original source and visually similar matches.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">FrameCatch</div>
+        <nav class="footer-links">
+          <a class="footer-link" href="#">Privacy Policy</a>
+          <a class="footer-link" href="#">Terms of Service</a>
+          <a class="footer-link" href="#">Contact</a>
+        </nav>
+        <div class="footer-copyright">© 2024 FrameCatch. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
