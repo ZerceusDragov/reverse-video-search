@@ -1,0 +1,21 @@
+{
+  "name": "reverse-video-search",
+  "version": "1.0.0",
+  "description": "a tool that finds video sources on the internet",
+  "license": "MIT",
+  "author": "Maximus Cortex",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "multer": "^2.2.0",
+    "serpapi": "^2.2.1"
+  }
+}
