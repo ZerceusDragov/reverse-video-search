@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Dynamic Footer Year
+    const yearSpan = document.getElementById('current-year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+
     // Make Logo Clickable to Return Home
     const logo = document.querySelector('.navbar-brand');
     if (logo) {
